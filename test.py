@@ -75,7 +75,7 @@ learning_rate = 0.01
 training_steps = 10000
 batch_size = 1
 display_step = 1
-train_dir = './checkpoints2/'
+train_dir = './checkpoints/'
 
 # Network Parameters
 num_input = 3 # {e_t, i_t, a_t} with size 3
@@ -206,7 +206,7 @@ with tf.Session(config = sess_config) as sess:
 	elif args.TestType == "multiple":
 		wrong_num_all = 0
 		total_num_all = 0
-		for i in range(5):
+		for i in range(10):
 			feature_map = np.random.randint(3, size = (10, 10))
 			wrong_num, total_num = Single_Test(feature_map, showcommands)
 			wrong_num_all += wrong_num
