@@ -20,12 +20,17 @@ Tensorflow 1.4.0
 CUDA 7.5
 
 #### Usage
-If you want to train the model, simply run the code, and the trained model will be saved in the ./checkpoints/ folder.
+If you want to train the model, simply run the code, and the trained model will be saved in the ./checkpoints/ folder
 ```
 python3 train.py
 ```
 
-If you want test the model using a specified matrix and show the generated commands, run the code
+If you want to check the losses during training process, then run the command and enter localhost:6006 use your browser
+```
+tensorboard --logdir=Tensorboard
+```
+
+If you want test the model using a specified matrix and show the generated commands, run the code, it will load the latedst model in the ./checkpoints/ folder
 ```
 python3 test.py --TestType single --ShowCommands
 ```
