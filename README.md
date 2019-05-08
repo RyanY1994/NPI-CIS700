@@ -1,18 +1,22 @@
 # NPI-CIS700
 
 #### Overview
-Here is the final project program of CIS700 Neural Program Learning Course
+Here is the final project program of CIS700 Neural Program Learning Course.
+
 The objective of this program is apply Neural Programmer Interpreters (NPIs) for the task to distinguish all non-zero elements in a matrix and mark(reverse) them according to their original value.
 
 #### File Functions
 train.py: Establish and train the NPIs model for the task
 
 test.py: Load and test the trained NPIs model for the task
+
 trace.py: Generate execution traces (Input and Output/Label) required by NPIs model
 
 #### Requirements
 Python 3.5
+
 Tensorflow 1.4.0
+
 CUDA 7.5
 
 #### Usage
