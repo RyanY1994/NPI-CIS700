@@ -10,7 +10,7 @@ train.py: Establish and train the NPIs model for the task
 
 test.py: Load and test the trained NPIs model for the task
 
-trace.py: Generate execution traces (Input and Output/Label) required by NPIs model
+trace.py: Generate execution traces (Input and Output/Label) required by the training process of NPIs model
 
 #### Requirements
 Python 3.5
