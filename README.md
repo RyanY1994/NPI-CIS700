@@ -25,7 +25,7 @@ If you want to train the model, simply run the code, and the trained model will 
 python3 train.py
 ```
 
-If you want to check the losses during training process, then run the command and enter localhost:6006 use your browser
+If you want to check the losses during training process, then run the command and enter 'localhost:6006' use your browser
 ```
 tensorboard --logdir=Tensorboard
 ```
