@@ -14,7 +14,7 @@ learning_rate = 0.01
 training_steps = 10000
 batch_size = 1
 display_step = 1
-epoch_num = 100
+epoch_num = 30
 train_dir = './checkpoints/'
 tensorboard_dir = './Tensorboard/'
 
@@ -97,6 +97,8 @@ with tf.name_scope("Total_loss") as scope:
 	tf.summary.scalar("Total_loss", loss_op)
 
 optimizer = tf.train.GradientDescentOptimizer(learning_rate = learning_rate)
+# optimizer = tf.train.AdamOptimizer(learning_rate = learning_rate)
+# optimizer = tf.train.RMSPropOptimizer(learning_rate = learning_rate)
 train_op = optimizer.minimize(loss_op)
 
 # Model Evaluation
