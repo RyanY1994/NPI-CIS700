@@ -6,6 +6,7 @@ The objective of this program is apply Neural Programmer Interpreters (NPIs) for
 
 #### File Functions
 train.py: Establish and train the NPIs model for the task
+
 test.py: Load and test the trained NPIs model for the task
 trace.py: Generate execution traces (Input and Output/Label) required by NPIs model
 
