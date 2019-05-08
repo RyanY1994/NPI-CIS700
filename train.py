@@ -14,7 +14,7 @@ learning_rate = 0.01
 training_steps = 10000
 batch_size = 1
 display_step = 1
-epoch_num = 30
+epoch_num = 100
 train_dir = './checkpoints/'
 tensorboard_dir = './Tensorboard/'
 
