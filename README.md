@@ -30,7 +30,7 @@ If you want to check the losses during training process, then run the command an
 tensorboard --logdir=Tensorboard
 ```
 
-If you want test the model using a specified matrix and show the generated commands, run the code, it will load the latedst model in the ./checkpoints/ folder
+If you want test the model using a specified matrix and show the generated commands, run the code, it will load the latest model in the ./checkpoints/ folder
 ```
 python3 test.py --TestType single --ShowCommands
 ```
